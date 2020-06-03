@@ -1,5 +1,5 @@
 {
-  "name": "dir-2-json",
+  "name": "@wixc3/dir-to-json-file",
   "version": "1.0.0",
   "description": "Directory to Json file",
   "main": "src/index.js",
@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "Apache 2.0",
   "prettier": {
     "printWidth": 100,
     "singleQuote": true,
