@@ -2,6 +2,7 @@ import { convertDirectoryToJsonObject, IConvertDirectoryToJsonObjectOptions } fr
 import { writeJsonObjectToFile, IWriteJsonObjectToFileOptions } from './json-to-file';
 
 export { writeJsonObjectToFile, IWriteJsonObjectToFileOptions } from './json-to-file';
+export { convertDirectoryToJsonObject, IConvertDirectoryToJsonObjectOptions } from './dir-to-json';
 
 export type IConvertDirToJsonFileOptions = Pick<IWriteJsonObjectToFileOptions, 'dest'> &
     Pick<IConvertDirectoryToJsonObjectOptions, 'fs' | 'filterPredicate' | 'src'>;
