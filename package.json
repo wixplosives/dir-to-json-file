@@ -1,8 +1,8 @@
 {
   "name": "@wixc3/dir-to-json-file",
   "version": "1.0.0",
-  "description": "Directory to Json file",
-  "main": "src/index.js",
+  "description": "Directory to JSON file",
+  "main": "dist/index.js",
   "scripts": {
     "clean": "rimraf dist",
     "prebuild": "npm run clean",
@@ -12,8 +12,8 @@
     "test": "mocha test/*.unit.ts"
   },
   "keywords": [],
-  "author": "",
-  "license": "Apache 2.0",
+  "author": "Wix.com",
+  "license": "MIT",
   "prettier": {
     "printWidth": 100,
     "singleQuote": true,
@@ -33,6 +33,6 @@
     "eslint": "^7.1.0",
     "eslint-config-prettier": "^6.11.0",
     "mocha": "^7.2.0",
-    "typescript": "^3.9.3"
+    "typescript": "~3.9.3"
   }
 }
